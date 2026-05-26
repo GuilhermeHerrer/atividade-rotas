@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Stardew';
+  src: url('/public/Stardew.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#root{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0,1fr);
+  min-height: 100vh;
+}
+
+h1,h2,h3 {
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
