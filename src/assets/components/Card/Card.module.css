@@ -1,0 +1,62 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.45); 
+    border: 3px solid #6D4E09; 
+    border-radius: 12px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 300px; 
+    box-sizing: border-box;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1); 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.nome {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    color: #070500;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Stardew';
+    color: #6D4E09;
+}
+
+
+.img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.05); 
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.infosContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem; 
+    width: 100%;
+    text-align: left;
+}
+
+.infos {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #4A3319;
+    font-weight: normal;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+}
+
+.infos::before {
+    content: "▪ ";
+    color: #6D4E09;
+    margin-right: 8px;
+    font-size: 1.2rem;
+}

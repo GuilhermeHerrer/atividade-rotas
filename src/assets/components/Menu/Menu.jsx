@@ -1,4 +1,4 @@
-import LinkGenerico from '../Link/LinkGenerico'
+import LinkGenerico from '../LinkGenerico/LinkGenerico'
 import styles from './Menu.module.css'
 
 const Menu = () => {
@@ -9,7 +9,7 @@ const Menu = () => {
                 <div className={styles.linksContainer}>
                     <LinkGenerico Nome="Como pescar?" Destino="/"/>
                     <LinkGenerico Nome="Peixes Lendários" Destino="/lendarios"/>
-                    <LinkGenerico Nome="Localizações" Destino="/localizacoes"/>
+                    <LinkGenerico Nome="Mapa" Destino="/mapa"/>
                 </div>
             </nav>
         </header>

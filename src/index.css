@@ -20,7 +20,7 @@
 
 h1,h2,h3 {
   font-weight: 700;
-  line-height: 5rem;
+  line-height: 1.2;
 }
 
 li{
@@ -30,3 +30,4 @@ li{
 a{
   text-decoration: none;
 }
+

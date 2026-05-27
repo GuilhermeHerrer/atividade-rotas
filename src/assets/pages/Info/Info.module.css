@@ -1,0 +1,27 @@
+.conteudoPesca{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2rem;
+}
+
+strong{
+    font-weight: bolder;
+    color: #070500;
+}
+
+li{
+    list-style: circle;
+    list-style-position: inside;
+}
+
+p{
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px dashed #6D4E09;
+}
+
+h2{
+    margin: 1rem auto 1.8rem ;
+    text-align: center;
+    line-height: 2rem;
+}
